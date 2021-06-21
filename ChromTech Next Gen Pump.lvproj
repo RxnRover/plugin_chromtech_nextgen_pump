@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ChromTech Next Generation.lvlib" Type="Library" URL="../ChromTech Next Generation.lvlib"/>
+		<Item Name="ChromTech Next Gen Pump.lvlib" Type="Library" URL="../ChromTech Next Gen Pump.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ChromTech MX-Class Drivers.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ChromTech MX-Class Pump/ChromTech MX-Class Drivers.lvlib"/>
@@ -98,7 +98,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{9CF0659E-10C6-40F6-BF4B-19EA2C42D2F2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ChromTech Next Generation.lvlib/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ChromTech Next Gen Pump.lvlib/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
