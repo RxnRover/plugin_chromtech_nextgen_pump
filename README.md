@@ -13,7 +13,9 @@ pumps. Download the drivers from
 the files into your `<labview>/instr.lib` directory, where `<labview>` is the
 location of your LabVIEW installation.
 
+For install using VIPM download the latest `.vip` from the [Releases tab](https://github.com/RxnRover/plugin_nextgen_pump)
+
 Download this plugin by clicking the "Code" button in the top right of its 
 GitHub repository and selecting "Download ZIP". Extract the ZIP file into your 
-`<documents>/Plugins/ReactorComponents` directory to finish installation. 
+`<documents>/Plugins/Hardware/Pumps/` directory to finish installation. 
 Create the `ReactorComponents` subdirectory if it does not already exist.
