@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -13,13 +13,18 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ChromTech Next Gen Pump.lvlib" Type="Library" URL="../ChromTech Next Gen Pump.lvlib"/>
+		<Item Name="LICENSE.txt" Type="Document" URL="../LICENSE.txt"/>
+		<Item Name="plugin.conf" Type="Document" URL="../plugin.conf"/>
+		<Item Name="plugin_chromtech_nextgen_pump.vipb" Type="Document" URL="../plugin_chromtech_nextgen_pump.vipb"/>
+		<Item Name="plugin_chromtech_nextgen_pump.vipc" Type="Document" URL="../plugin_chromtech_nextgen_pump.vipc"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="ChromTech MX-Class Drivers.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ChromTech MX-Class Pump/ChromTech MX-Class Drivers.lvlib"/>
-				<Item Name="ChromTech Series III Pump.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ChromTech Series III Pump/ChromTech Series III Pump.lvlib"/>
+				<Item Name="ChromTech MX-Class Drivers.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RxnRover/ChromtechNextGenDriver/ChromTech MX-Class Drivers.lvlib"/>
+				<Item Name="ChromTech Series III Pump.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RxnRover/ChromtechSeriesIIIDriver/ChromTech Series III Pump.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Dynamic Reentrant.lvlib" Type="Library" URL="/&lt;userlib&gt;/Dynamic Reentrant/Dynamic Reentrant.lvlib"/>
+				<Item Name="Dynamic Reentrant.lvlib" Type="Library" URL="/&lt;userlib&gt;/RxnRover/DynamicReentrant/Dynamic Reentrant.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
