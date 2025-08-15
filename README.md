@@ -15,5 +15,4 @@ using a spreadsheet program.
 
 Download this plugin by clicking the "Code" button in the top right of its 
 GitHub repository and selecting "Download ZIP". Extract the ZIP file into your 
-`<documents>/Plugins/Hardware/Pumps/` directory to finish installation. 
-Create the `ReactorComponents` subdirectory if it does not already exist.
+`<documents>/RxnRover/Plugins/Hardware/Pumps/` directory to finish installation. 
