@@ -13,6 +13,9 @@ using a spreadsheet program.
 
 ### Manual Installation (optional)
 
+For install using VIPM download the latest `.vip` from the [Releases tab](https://github.com/RxnRover/plugin_chromtech_nextgen_pump/releases)
+
 Download this plugin by clicking the "Code" button in the top right of its 
 GitHub repository and selecting "Download ZIP". Extract the ZIP file into your 
 `<documents>/RxnRover/Plugins/Hardware/Pumps/` directory to finish installation. 
+
